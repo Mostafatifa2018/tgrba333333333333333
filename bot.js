@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = ['487733676046548992'];
@@ -6,7 +6,7 @@ const prefix = ['-'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Mida `);
+   console.log(`Credit Farmm - Script By : Kahrbaa `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -47,7 +47,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Mida , Farm Credit By Mida, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,7 +68,7 @@ client.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Mida');
+let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
@@ -98,7 +98,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Mida , Farm Credit By Mida, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -119,7 +119,7 @@ client2.on('message', message => {
 
 
 if (command == "تحدث") {
-let rank = message.guild.member(message.author).roles.find('name', 'Role.Mida');
+let rank = message.guild.member(message.author).roles.find('name', 'Role.Kahrbaa');
 if (!rank) return message.reply(' ')
   message.channel.send(args.join("  "))
     message.delete();
